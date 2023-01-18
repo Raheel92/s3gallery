@@ -1,0 +1,33 @@
+    //Create a table to display images 
+    // const [images, setImages] = useState([]);
+    // useEffect(() => {
+      //     myBucket.listObjects({ Delimiter: '/' }, (err, data) => {
+    //         if (err) {
+    //             console.log(err);
+    //         } else {
+    //             setImages(data.Contents);
+    //         }
+    //     })
+    // }
+    // )
+    // return <div>
+    //     <h1>Image List</h1>
+    //     <table>
+    //         <thead>
+    //             <tr>
+    //                 <th>Image</th>
+    //             </tr>
+    //         </thead>
+    //         <tbody>
+    //             {images.map(image => {
+      //                 return <tr key={image.Key}>
+    //                     <td>
+    //                         <img style={{ width: '300px' }} src={`https://s3-${REGION}.amazonaws.com/${S3_BUCKET}/${image.Key}`} alt=""/>
+    //                     </td>
+    //                 </tr>
+    //             }
+    //             )}
+    //         </tbody>
+    //     </table>
+    // </div>
+    // }
